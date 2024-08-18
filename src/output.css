@@ -558,12 +558,36 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .start-0 {
   inset-inline-start: 0px;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
 }
 
 .z-20 {
@@ -643,8 +667,68 @@ video {
   margin-top: 24rem;
 }
 
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.-mt-7 {
+  margin-top: -1.75rem;
+}
+
+.-mt-11 {
+  margin-top: -2.75rem;
+}
+
+.-mt-12 {
+  margin-top: -3rem;
+}
+
+.-mt-14 {
+  margin-top: -3.5rem;
+}
+
+.-mt-9 {
+  margin-top: -2.25rem;
+}
+
+.-mt-16 {
+  margin-top: -4rem;
+}
+
+.mt-56 {
+  margin-top: 14rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
+}
+
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -714,6 +798,11 @@ video {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.translate-y-1 {
+  --tw-translate-y: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scroll-mt-20 {
@@ -830,6 +919,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -840,6 +934,22 @@ video {
 
 .pt-44 {
   padding-top: 11rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-center {
@@ -946,6 +1056,10 @@ video {
     margin-top: 12rem;
   }
 
+  .sm\:-mt-5 {
+    margin-top: -1.25rem;
+  }
+
   .sm\:w-full {
     width: 100%;
   }
@@ -1016,6 +1130,10 @@ video {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-blue-700 {
